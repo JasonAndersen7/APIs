@@ -21,42 +21,42 @@ namespace TempleInfo.API
                 new Temple()
                 {
                    
-                     Name = "New York temple",
-                     Description = "The one with that big park.",
+                     Name = "Salt Lake City temple",
+                     Description = "The one with big spires.",
                      PointsOfInterest = new List<PointOfInterest>()
                      {
                          new PointOfInterest() {
                             
-                             Name = "Central Park",
-                             Description = "The most visited urban park in the United States." },
+                             Name = "Salt Lake",
+                             Description = "As stated, a very salty lake." },
                           new PointOfInterest() {
                            
-                             Name = "Empire State Building",
-                             Description = "A 102-story skyscraper located in Midtown Manhattan." },
+                             Name = "Visitor Center",
+                             Description = "Missionaries from all around the world serve here. " },
                      }
                 },
                 new Temple()
                 {
                     
-                    Name = "Antwerp",
-                    Description = "The one with the cathedral that was never really finished.",
+                    Name = "Washington D.C.",
+                    Description = "Very dramatic temple with with views along the highway.",
                     PointsOfInterest = new List<PointOfInterest>()
                      {
                          new PointOfInterest() {
                             
-                             Name = "Cathedral of Our Lady",
-                             Description = "A Gothic style cathedral, conceived by architects Jan and Pieter Appelmans." },
+                             Name = "Parking is easy to find",
+                             Description = "First major temple east of the Mississipi." },
                           new PointOfInterest() {
                            
-                             Name = "Antwerp Central Station",
-                             Description = "The the finest example of railway architecture in Belgium." },
+                             Name = "Temple Gardens",
+                             Description = "The the finest example of flowers" },
                      }
                 },
                 new Temple()
                 {
                    
                     Name = "Paris",
-                    Description = "The one with that big tower.",
+                    Description = "Temple in France.",
                     PointsOfInterest = new List<PointOfInterest>()
                      {
                          new PointOfInterest() {

@@ -42,7 +42,6 @@ namespace TempleInfo.API.Controllers
         public IActionResult GetTemple(int id, bool include = false)
         {
             // find temple
-           //var templeToReturn = templesDataStore.Current.temples.FirstOrDefault(c => c.Id == id);
 
             var templeToReturn = _templeInfoRepository.GetTemple(id, include);
 
@@ -81,14 +80,6 @@ namespace TempleInfo.API.Controllers
                 return Ok(templeResult);
             }
 
-            //var templeOnlyResult = new templeOnlyDTO()
-            //{
-
-            //    Id = templeToReturn.Id,
-            //    Name = templeToReturn.Name,
-            //    Description = templeToReturn.Description
-
-            //};
 
             var templeOnlyResult = Mapper.Map<TempleOnlyDTO>(templeToReturn);
             _mailService.Send($"temple {id} requested", "A GET call was issued");
